@@ -106,10 +106,10 @@ Frontend will start at `http://localhost:5173`
 parking-system/
 ├── parking-backend/        # Spring Boot application
 │   └── src/main/java/
-│       ├── controller/     # REST controllers
-│       ├── model/          # JPA entities
-│       ├── repository/     # Spring Data repositories
-│       └── service/        # Business logic
+│       ├── controllers/     # REST controllers
+│       ├── entities/          # JPA entities
+│       ├── repos/     # Spring Data repositories
+│       └── services/        # Business logic
 │
 └── parking-frontend/       # React application
     └── src/
